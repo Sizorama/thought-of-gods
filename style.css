@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(39, 36, 35);
+}
+nav {
+    background-color: antiquewhite; 
+    color:rgb(154, 75, 75);
+    border-radius: 2vh;
+    display: flex flow-root;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 10vh;
+    /* min-width: fit-content; */
+    margin: 2vh 3vw 4vh 3vw;
+    border: 0.5vh solid rgb(154, 75, 75);
+}
+.left-nav {
+    margin: 0 2vh;
+    font-size: 6vh;
+    /* min-width: fit-content; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "BJCree", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.right-nav {
+    color: rgb(154, 75, 75); 
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vh;
+    /* word-wrap: break-word; */
+    border-radius: 0 6px 6px 0;   
+}
+.right-nav a {
+    text-decoration: none;
+    color: inherit;
+}
+.right-nav ul {
+    margin: 1vh;
+    padding: 2vh;
+}
+.right-nav ul:hover {
+    background-color: rgb(154, 75, 75);
+    color: antiquewhite;
+    border-radius: 1vh;
+    transition: 0.7s;
+}
+.right-nav ul {
+    padding: 4px;
+}
+.right-nav ul a {
+    text-decoration: none;
+}
+.pin {
+    font-size: larger;
+    margin: 0 0 3vh 0;
+}
+.pin-top {
+    background-color: rgb(154, 75, 75);
+}
+.pin-content {
+    background-color: rgb(196, 137, 65);
+}
+.body {
+    color: white;
+    margin: 1vh 2vw;
+    /* min-height: 90vh; */
+    display: flex;
+    flex-direction: column;
+    border-radius: 1vh;
+}
+.tile {
+    margin: 4px 0 4px 0;
+    /* padding: 3px; */
+    background-color: rgb(35, 35, 35);
+    color: antiquewhite;
+    border-radius: 1vh;
+    text-align: left;
+    outline: none;
+    text-decoration: none;
+}
+.tile:hover {
+    background-color: bisque;
+    color: rgb(154, 75, 75);
+    transition: 0.5s;
+}
+.blog-header {
+    font-size: larger;
+    padding: 0 0 1vh 1vh;
+    background-color: rgb(107, 48, 48);
+    border-radius: 1vh 1vh 0 0;
+    color: antiquewhite;
+}
+.tile:visited {
+    text-decoration: underline;
+}
+.blog-desc {
+    font-size: large;
+}
+.footer {
+    font-size: larger;
+    background-color: black;
+    color: white;
+    text-align: center;
+    min-height:10vh;
+}
+
+.about {
+    font-size: 10vh;
+    color: rgb(154, 75, 75);
+    text-align: center;
+    font-family: "DM Serif Display", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.in-about {
+    color: antiquewhite;
+    font-size: 3vh;
+    text-align: center;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.in-about:hover {
+    font-size: 15vh;
+    font-weight:900;
+}
+
+.blog1-header {
+    text-align: left;
+    font-family: "Bungee" sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10vh;
+    color: rgb(154, 75, 75);
+    margin: 2vh 6vh 4vh 6vh;
+    padding: 1vh;
+    border-radius: 1vh;
+}
+.content {
+    text-align: justify;
+    font-family: "Bungee" sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5vh;
+    color: antiquewhite;
+    margin: 2vh 6vh 4vh 6vh;
+    padding: 1.5vh;
+    border-radius: 1vh;
+    background-color: rgb(58, 58, 72);
+    border: 0.5vh solid rgb(33, 33, 41);
+}

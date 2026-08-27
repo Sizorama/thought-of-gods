@@ -12,7 +12,7 @@ body {
 
 nav {
     background-color: antiquewhite;
-    color:rgb(154, 75, 75);
+    color:rgb(154, 75, 75) !important; 
     border-radius: 2vh;
     display: flex;
     flex-wrap: wrap;
@@ -35,7 +35,7 @@ nav {
     color: rgb(154, 75, 75);
     text-align: center;
     align-content: center;
-    font-size: 3vh;
+    font-size: 1.6rem;
     border-radius: 0 6px 6px 0;
 }
 
@@ -60,6 +60,14 @@ nav {
 .right-nav a {
     text-decoration: none;
     color: inherit;
+}
+
+.searchBox {
+    display: none;
+    width: 20vw;
+    position: fixed;
+    left: 0;
+    background-color: black;
 }
 
 /*Content Between Nav and Main*/
@@ -88,7 +96,7 @@ nav {
     display: flex;
     flex-direction: column;
     border-radius: 1vh;
-} 
+}
 
 .tile {
     margin: 4px 0 4px 0;
